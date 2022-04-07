@@ -1,0 +1,6 @@
+debug/
+release/
+Makefile*
+ui_*.h
+*.pro.*
+.qmake.stash
