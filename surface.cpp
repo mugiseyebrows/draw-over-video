@@ -55,12 +55,12 @@ QVideoFrame Surface::frame() const
     return mFrame;
 }
 
-const QImage::Format &Surface::imageFormat() const
+QImage::Format Surface::imageFormat() const
 {
     return mImageFormat;
 }
 
-const QSize &Surface::imageSize() const
+QSize Surface::imageSize() const
 {
     return mImageSize;
 }

@@ -17,9 +17,9 @@ public:
 
     QVideoFrame frame() const;
 
-    const QImage::Format &imageFormat() const;
+    QImage::Format imageFormat() const;
 
-    const QSize &imageSize() const;
+    QSize imageSize() const;
 
 signals:
     void frameRecieved();
