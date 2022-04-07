@@ -6,7 +6,7 @@
 Widget::Widget(Surface &surface, QWidget *parent)
     : QWidget{parent}, mSurface(surface)
 {
-    connect(&mSurface,SIGNAL(frameRecieved()),this,SLOT(update()));
+    connect(&mSurface,SIGNAL(frameReceived()),this,SLOT(update()));
 }
 
 void Widget::paintEvent(QPaintEvent *event)

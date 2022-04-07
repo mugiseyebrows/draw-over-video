@@ -22,7 +22,7 @@ public:
     QSize imageSize() const;
 
 signals:
-    void frameRecieved();
+    void frameReceived();
 
 protected:
 

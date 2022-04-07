@@ -46,7 +46,7 @@ void Surface::stop()
 bool Surface::present(const QVideoFrame &frame)
 {
     mFrame = frame;
-    emit frameRecieved();
+    emit frameReceived();
     return true;
 }
 
